@@ -20,9 +20,6 @@ for index, todo in enumerate(todos):
         del st.session_state[todo]
         st.experimental_rerun()
 
-<<<<<<< HEAD
 st.text_input(label="", placeholder="Add new todo...",
-=======
 st.text_input(label="Hello", placeholder="Add new todo...",
->>>>>>> 0dad369 (Initial commit)
-              on_change=add_todo, key='new_todo')
+
